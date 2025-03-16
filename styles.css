@@ -1,0 +1,114 @@
+/* Scandinavian Minimalist Black & White - styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  margin: 0;
+  background: transparent;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  border-radius: 8px;
+  border: 0px transparent;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 320px;
+  padding: 20px;
+  margin: 0 auto; /* Only centers horizontally */
+  background: #ffffff;
+  border-radius: 0px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+/* Header row for Selected Text and Config icon */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Config Icon */
+#configLink {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Headings */
+h2 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 0px 0px;
+  color: #000;
+  
+}
+
+/* Selected Text Display */
+#selectedTextDisplay {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  line-height: 1.4;
+  min-height: 40px;
+}
+
+/* Form and Input */
+form {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  background: #ffffff;
+  color: #000;
+}
+
+/* Black and White Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #000;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: #333;
+}
+
+/* Status Message */
+#status {
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Answer Display */
+.answer-box {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  margin-top: 5px;
+  white-space: pre-wrap;
+  line-height: 1.4;
+}
+
