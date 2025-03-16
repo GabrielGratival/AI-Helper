@@ -1,7 +1,9 @@
 
 # AI Helper Chrome Extension
 
-**Free AI Chrome Extension to use with your OWN API Key.**
+**No more Cntrl C/Cntrl V to ChatGPT.**
+
+**Free with your OWN API Key!**
 
 ## How to install:
 
