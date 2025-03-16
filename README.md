@@ -30,6 +30,16 @@
 5. Press Ask or hit enter to generate an answer.
 6. The answer will appear in a new field and will automatically be copied to your clipboard.
 
-I plan to publish this extension to the Chrome Web Store.
+## Printscreens
+Empty dialog
+<img width="326" alt="Screenshot 2025-03-16 at 20 18 18" src="https://github.com/user-attachments/assets/9aa32ef9-558b-4b28-bce3-a8e04fde1867" />
+<br>
+Example with email answer
+<img width="324" alt="Screenshot 2025-03-16 at 20 20 39" src="https://github.com/user-attachments/assets/b8e7ea04-f320-48cd-8896-e1104eb26c65" />
+
+I plan to publish this extension to the Chrome Web Store soon.
 
 Please send me any feedback or suggestions for improvement.
+
+
+
